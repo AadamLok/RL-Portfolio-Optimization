@@ -6,27 +6,20 @@ class StockMarket:
     def __init__(self, max_episode_steps=300, epsilon=0.05):
         self.params = 537
         
-        self.sectors = ['SPY', 'XLK', 'XLF', 'XLY', 'XLI', 'XLB', 'XLV', 'XLU', 'XLP', 'XLE', 'XLRE', 'XLC']
-        self.data = pd.read_csv(f'enviroment/norm-SPY.csv', index_col=0)
-        self.data = self.data[['open_SPY', 'high_SPY', 'low_SPY', 'close_SPY', 'volume_SPY']]
+        self.sectors = ['XLK', 'XLF', 'XLY', 'XLI', 'XLB', 'XLV', 'XLU', 'XLP', 'XLE', 'XLRE', 'XLC']
+        self.data = pd.read_csv(f'enviroment/norm-{self.sectors[0]}.csv', index_col=0)
         for sector in self.sectors[1:]:
             sector_data = pd.read_csv(f'enviroment/norm-{sector}.csv', index_col=0)
             self.data = self.data.join(sector_data, how='outer', rsuffix=f'_{sector}')
         self.data.fillna(0, inplace=True)
         
-        self.price_cal = pd.read_csv(f'enviroment/RAW-SPY.csv', index_col=0)
-        self.price_cal.drop(columns=['adjusted_close','volume','dividend_amount','split_coefficient', 'high', 'low'], inplace=True)
-        for sector in self.sectors[1:]:
-            sector_data = pd.read_csv(f'enviroment/RAW-{sector}.csv', index_col=0)
-            sector_data.drop(columns=['adjusted_close','volume','dividend_amount','split_coefficient', 'high', 'low'], inplace=True)
-            self.price_cal = self.price_cal.join(sector_data, how='outer', rsuffix=f'_{sector}')
-        self.price_cal.fillna(1, inplace=True)
-        self.price_cal.drop(columns=['open','close'], inplace=True)
+        self.spy_data = pd.read_csv(f'enviroment/norm-SPY.csv', index_col=0)
+        self.spy_data = self.spy_data[['open', 'high', 'low', 'close', 'volume']]
+        self.spy_data.fillna(0, inplace=True)
         
-        for sector in self.sectors[1:]:
-            self.price_cal[f'close_{sector}'] = self.price_cal[f'close_{sector}'] / self.price_cal[f'open_{sector}']
-            self.price_cal.rename(columns={f'close_{sector}': f'change_{sector}'}, inplace=True)
-            self.price_cal.drop(columns=[f'open_{sector}'], inplace=True)
+        self.price_cal = self.data.copy()
+        self.price_cal = self.price_cal[[f'open_{sector}' for sector in self.sectors]]
+        self.price_cal = self.price_cal.applymap(lambda x: x + 1)
         
         self.cash = 10_000
         self.date = date(2000, 1, 3)
@@ -36,8 +29,10 @@ class StockMarket:
         self.steps = 0
         
         self.position_text = ['CASH', 'XLK', 'XLF', 'XLY', 'XLI', 'XLB', 'XLV', 'XLU', 'XLP', 'XLE', 'XLRE', 'XLC']
+        self.previos_position = np.zeros(12)
+        self.previos_position[0] = 1
         
-        self.epsilon = epsilon/(len(self.sectors)-1)
+        self.epsilon = epsilon/(len(self.sectors)+1)
         
     def reset(self, start_date):
         self.cash = 10_000
@@ -53,8 +48,24 @@ class StockMarket:
             
         return final_data.flatten()
     
+    def get_spy_data_for_date(self, date):
+        str_date = date.strftime('%Y-%m-%d')
+        final_data = self.spy_data[self.spy_data.index == str_date].values
+        
+        if len(final_data) != 1:
+            return None
+        
+        return final_data.flatten()
+        
     def get_curr_state(self):
         date_data = self.get_data_for_date(self.date)
+        if date_data is None:
+            return None, None
+        
+        return date_data, self.previos_position
+    
+    def get_curr_spy_state(self):
+        date_data = self.get_spy_data_for_date(self.date)
         if date_data is None:
             return None
         
@@ -66,7 +77,7 @@ class StockMarket:
         
         self.steps += 1
         
-        date_data = self.get_curr_state()
+        date_data, _ = self.get_curr_state()
         if date_data is None:
             return None, None, None, None
         
@@ -75,20 +86,14 @@ class StockMarket:
         
         actual_action = action.copy()
         
+        changes = np.ones(len(action))
+        changes[1:] = self.price_cal[self.price_cal.index == self.date.strftime('%Y-%m-%d')].values.flatten()
+        
         random_change = np.random.uniform(-self.epsilon, self.epsilon, len(action))
         random_change[0] = 0
         action += random_change
         action = action / np.sum(action)
         
-        changes = np.ones(len(action))
-        changes[1:] = self.price_cal[self.price_cal.index == self.date.strftime('%Y-%m-%d')].values.flatten()
-        
-        new_cash = np.sum(self.cash * action * changes)
-        
-        # Add logic for different rewards
-        reward = (new_cash - self.cash)
-        
-        self.cash = new_cash
         old_date = self.date
         self.date += timedelta(days=1)
         while self.date.weekday() >= 5:
@@ -96,7 +101,15 @@ class StockMarket:
         while self.date.strftime('%Y-%m-%d') not in self.data.index:
             self.date += timedelta(days=1)
             
+        changes = np.ones(len(action))
+        changes[1:] = self.price_cal[self.price_cal.index == self.date.strftime('%Y-%m-%d')].values.flatten()
+        
+        new_cash = np.sum(self.cash * action * changes)
+        reward = (new_cash - self.cash)
+        self.cash = new_cash
+        self.previos_position = action * changes
+            
         if self.date >= self.final_date or self.steps >= self.max_episode_steps or self.cash < 0:
             done = True
             
-        return old_date, actual_action, reward, done, self.date
+        return old_date, actual_action, reward, done, self.date, self.previos_position
