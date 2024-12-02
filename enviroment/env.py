@@ -12,6 +12,7 @@ class StockMarket:
             sector_data = pd.read_csv(f'enviroment/norm-{sector}.csv', index_col=0)
             self.data = self.data.join(sector_data, how='outer', rsuffix=f'_{sector}')
         self.data.fillna(0, inplace=True)
+        self.data.rename(columns={f'open': f'open_{self.sectors[0]}'}, inplace=True)
         
         self.spy_data = pd.read_csv(f'enviroment/norm-SPY.csv', index_col=0)
         self.spy_data = self.spy_data[['open', 'high', 'low', 'close', 'volume']]
@@ -19,11 +20,11 @@ class StockMarket:
         
         self.price_cal = self.data.copy()
         self.price_cal = self.price_cal[[f'open_{sector}' for sector in self.sectors]]
-        self.price_cal = self.price_cal.applymap(lambda x: x + 1)
+        self.price_cal = self.price_cal.map(lambda x: x + 1)
         
         self.cash = 10_000
         self.date = date(2000, 1, 3)
-        self.final_date = date(2020, 11, 29)
+        self.final_date = date(2024, 11, 29)
         
         self.max_episode_steps = max_episode_steps
         self.steps = 0
@@ -32,7 +33,7 @@ class StockMarket:
         self.previos_position = np.zeros(12)
         self.previos_position[0] = 1
         
-        self.epsilon = epsilon/(len(self.sectors)+1)
+        self.epsilon = epsilon
         
     def reset(self, start_date):
         self.cash = 10_000
@@ -89,9 +90,8 @@ class StockMarket:
         changes = np.ones(len(action))
         changes[1:] = self.price_cal[self.price_cal.index == self.date.strftime('%Y-%m-%d')].values.flatten()
         
-        random_change = np.random.uniform(-self.epsilon, self.epsilon, len(action))
-        random_change[0] = 0
-        action += random_change
+        random_change = (np.random.dirichlet(np.ones(len(action)), 1) * self.epsilon)[0]
+        action += random_change - (action * self.epsilon)
         action = action / np.sum(action)
         
         old_date = self.date
@@ -100,7 +100,7 @@ class StockMarket:
             self.date += timedelta(days=1)
         while self.date.strftime('%Y-%m-%d') not in self.data.index:
             self.date += timedelta(days=1)
-            
+        
         changes = np.ones(len(action))
         changes[1:] = self.price_cal[self.price_cal.index == self.date.strftime('%Y-%m-%d')].values.flatten()
         
@@ -108,8 +108,9 @@ class StockMarket:
         reward = (new_cash - self.cash)
         self.cash = new_cash
         self.previos_position = action * changes
+        self.previos_position = self.previos_position / np.sum(self.previos_position)
             
         if self.date >= self.final_date or self.steps >= self.max_episode_steps or self.cash < 0:
             done = True
-            
+           
         return old_date, actual_action, reward, done, self.date, self.previos_position
