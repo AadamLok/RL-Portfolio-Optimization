@@ -1,0 +1,501 @@
+Ticker,Company Name,ISIN Code,1999-12-31
+AA,Alcoa Inc,US0138171014,X
+AAPL,Apple Inc.,US0378331005,X
+ABI,Applied Biosystems Inc.,US0381491002,X
+ABS,Albertson's Inc.,US0131041040,X
+ABT,Abbott Laboratories,US0028241000,X
+ABX,Barrick Gold Corp.,CA0679011084,X
+ACKH,Armstrong Holding Inc,US0423841073,X
+ACV,Alberto-Culver Co.,US0130781000,X
+ADBE,Adobe Systems Inc.,US00724F1012,X
+ADCT,ADC Telecommunications Inc,US0008863096,X
+ADI,Analog Devices Inc.,US0326541051,X
+ADM,Archer-Daniels-Midland Co.,US0394831020,X
+ADP,Automatic Data Processing Inc,US0530151036,X
+SXCL,Steel Excel Inc,US8581222036,X
+ADSK,Autodesk Inc.,US0527691069,X
+AEE,Ameren Corp.,US0236081024,X
+AEP,American Electric Power Company Inc,US0255371017,X
+AES,AES Corp.,US00130H1059,X
+AET,Aetna Inc.,US00817Y1082,X
+AFL,AFLAC Inc.,US0010551028,X
+AFS.A,Associates First Capital Corp,US0460081088,X
+AGC,American General Insurance Co,US0263511067,X
+AGN,Allergan plc,IE00BY9D5467,X
+AGN (Old),Allergan Inc. (Old),US0184901025,X
+AIG,AIG Inc.,US0268747849,X
+AL (Alc),Alcan Inc.,CA0137161059,X
+ALL,Allstate Corp.,US0200021014,X
+AM,American Greetings Corp,US0263751051,X
+AMAT,Applied Materials Inc.,US0382221051,X
+AMD,Advanced Micro Devices Inc,US0079031078,X
+AMGN,Amgen Inc.,US0311621009,X
+AMR (AMR),AMR Corp.,US0017651060,X
+ANDW,Andrew Corp.,US0344251089,X
+AON,Aon plc,IE00BLP1HW54,X
+APA,Apache Corp,US03743Q1085,X
+APC,Anadarko Petroleum Corp.,US0325111070,X
+APD,Air Products & Chemicals Inc,US0091581068,X
+ARC (Atl),Atlantic Richfield Co,US0488251036,X
+ASH,Ashland Global Holdings Inc,US0441861046,X
+ASO,AmSouth Bancorp,US0321651020,X
+AT (All),Alltel Corp,US0200391037,X
+ATI,Allegheny Technologies Inc.,US01741R1023,X
+AVP,Avon Products Inc,US0543031027,X
+AVY,Avery Dennison Corp,US0536111091,X
+AW,Allied Waste Industries Inc.,US0195893088,X
+AXP,American Express Co,US0258161092,X
+AZA.A,ALZA Corp.,US0226151084,X
+AZO,AutoZone Inc,US0533321024,X
+BA,Boeing Co.,US0970231058,X
+BAC,Bank of America Corp.,US0605051046,X
+BAX,Baxter International Inc.,US0718131099,X
+BBBY,Bed Bath & Beyond Inc,US0758961009,X
+TFC,Truist Financial Corp,US89832Q1094,X
+BBY,Best Buy Co. Inc.,US0865161014,X
+BC,Brunswick Corp.,US1170431092,X
+BCR,C. R. Bard Inc,US0673831097,X
+BDK,Black & Decker Manufacturing,US0917971006,X
+BDX,Becton Dickinson & Co,US0758871091,X
+BEAM (Sun),Beam Suntory Inc,US0737301038,X
+BEN,Franklin Resources Inc,US3546131018,X
+BF.B,Brown-Forman Corp.,US1156372096,X
+BFO,BestFoods,US08658U1016,X
+BGG,Briggs & Stratton Corp,US1090431099,X
+BKR,Baker Hughes Co,US05722G1004,X
+BIG,Big Lots Inc.,US0893021032,X
+BK,Bank of New York Mellon Corp,US0640581007,X
+BALL,Ball Corp,US0584981064,X
+BLS,BellSouth Corp.,US0798601029,X
+BMC,BMC Software Inc,US0556071050,X
+BMET,Biomet Inc.,US0906131000,X
+BMS,Bemis Company Inc,US0814371052,X
+BMY,Bristol-Myers Squibb Co,US1101221083,X
+BNI,Burlington Northern Santa Fe Corp,US12189T1043,X
+BOL,Bausch & Lomb Inc.,US0717071031,X
+BR (OLD),Burlington Resources,US1220141030,X
+BS,Bethlehem Steel Corp,US0875091052,X
+BSC,Bear Stearns Co,US0739021089,X
+BSX,Boston Scientific Corp,US1011371077,X
+BUD (Anh),Anheuser-Busch Inc.,US0352291035,X
+C,Citigroup Inc.,US1729674242,X
+CA,CA Inc,US12673P1057,X
+CAG,ConAgra Brands Inc,US2058871029,X
+CAH,Cardinal Health Inc.,US14149Y1082,X
+CAT,Caterpillar Inc.,US1491231015,X
+CB (Old),Chubb Corp. (Old),US1712321017,X
+CBE,Cooper Industries plc,IE00B40K9117,X
+PARA,Paramount Global,US92556H2067,X
+CBS (Old),CBS Corp. (Old),US12490K1079,X
+CC (Circ),Circuit City Stores Inc.,US1727371080,X
+CCE,Coca-Cola European Partners plc,US19122T1097,X
+CCK,Crown Holdings Inc,US2283681060,X
+CCL,Carnival Corp.,PA1436583006,X
+CAR,Avis Budget Group,US0537741052,X
+CEG (Old),Constellation Energy Group Inc (Old),US2103711006,X
+CEN,Ceridian Corp.,US1567791009,X
+CFC,Countrywide Financial Corp.,US2223721042,X
+CG,Columbia Energy Group,US1976480095,X
+CGP,Coastal Corp.,US1904411055,X
+CHA,Champion International Corp,US1585251051,X
+CI,Cigna Corp.,US1255231003,X
+CIN,Cinergy Corp.,US1724741087,X
+CINF,Cincinnati Financial Corp,US1720621010,X
+CL,Colgate-Palmolive Co,US1941621039,X
+CLX,Clorox Co,US1890541097,X
+CMA,Comerica Inc.,US2003401070,X
+CMCSK (Old),Comcast Corp (Old),US2003001011,X
+CMI,Cummins Inc.,US2310211063,X
+CMS,CMS Energy Corp,US1258961002,X
+CMVT,Comverse Technology Inc,US2058624022,X
+CNG,Consolidated Natural Gas Co,US2096150048,X
+CNO,CNO Financial Group,US12621E1038,X
+CNP,CenterPoint Energy Inc,US15189T1079,X
+COC.B,Conoco Inc.,US2082513068,X
+COF,Capital One Financial Corp,US14040H1059,X
+COMS,3Com Corp.,US8855351040,X
+COP,ConocoPhillips,US20825C1045,X
+COST,Costco Wholesale Corp,US22160K1051,X
+CPB,Campbell Soup Co,US1344291091,X
+CPQ,Compaq Computer Corp,US2044931002,X
+CPWR,Compuware Corp,US2056381096,X
+CR,Crane Co.,US2243991054,X
+CSC,Computer Sciences Corp.,US2053631048,X
+CSCO,Cisco Systems Inc,US17275R1023,X
+CSR,Central & South West Corp,US1523571099,X
+CSX,CSX Corp.,US1264081035,X
+CTB,Cooper Tire & Rubber Co.,US2168311072,X
+LUMN,Lumen Technologies Inc,US5502411037,X
+CTX,Centex Corp.,US1523121044,X
+CTXS,Citrix Systems Inc,US1773761002,X
+CVS,CVS Health Corp.,US1266501006,X
+CVX,Chevron Corp.,US1667641005,X
+D,Dominion Resources Inc,US25746U1097,X
+DAL,Delta Air Lines Inc,US2473617023,X
+DAN,Dana Inc,US2358252052,X
+DD (Old),DuPont Co (Old),US2635341090,X
+DDS,Dillard's Inc.,US2540671011,X
+DE,Deere & Co.,US2441991054,X
+DELL,Dell Inc,US24702R1014,X
+DG,Dollar General Corp,US2566771059,X
+DHR,Danaher Corp.,US2358511028,X
+DIS,Walt Disney Co,US2546871060,X
+DJ,Dow Jones & Co. Inc.,US2605611050,X
+DLX,Deluxe Corp.,US2480191012,X
+DNB,Dun & Bradstreet Corp,US26483E1001,X
+DOV,Dover Corp.,US2600031080,X
+DD,DuPont de Nemours Inc,US26614N1028,X
+DPH,Delphi Corp. (Old),US2471261055,X
+DRI,Darden Restaurants Inc,US2371941053,X
+DTE,DTE Energy Co.,US2333311072,X
+DUK,Duke Energy Corp,US26441C2044,X
+EC,Engelhard Corp.,US2928451044,X
+ECL,Ecolab Inc.,US2788651006,X
+ED,Consolidated Edison Inc,US2091151041,X
+EDS,Electronic Data Systems Corp,US2856611049,X
+EFU,Eastern Enterprises,US27637F1003,X
+EFX,Equifax Inc.,US2944291051,X
+EIX,Edison International,US2810201077,X
+KODK,Eastman Kodak Co.,US2774614067,X
+EMC,EMC Corp.,US2686481027,X
+EMN,Eastman Chemical Co,US2774321002,X
+EMR,Emerson Electric Co,US2910111044,X
+ENRNQ,Enron Corp.,US2935611069,X
+EP,El Paso Corp.,US28336L1098,X
+ETN,Eaton Corporation plc,IE00B8KQN827,X
+ETR,Entergy Corp.,US29364G1031,X
+ETS,Enterasys Networks Inc.,US2936374014,X
+EXC,Exelon Corp.,US30161N1019,X
+F,Ford Motor Co,US3453708600,X
+FBF,FleetBoston Financial Group Inc,US3390301089,X
+FCX,Freeport-McMoRan Inc.,US35671D8570,X
+FDC,First Data Corp.,US32008D1063,X
+FDX,FedEx Corp,US31428X1063,X
+FE,FirstEnergy Corp,US3379321074,X
+FITB,Fifth Third Bancorp,US3167731005,X
+FJ,Fort James Corp.,US3474711047,X
+FLE,Fleetwood Enterprises Inc,US3390991038,X
+FMC,FMC Corp,US3024913036,X
+FNMA,Fannie Mae (FNMA),US3135861090,X
+FPC,Florida Progress Corp,US3411090075,X
+FMCC,Freddie Mac (FHLMC),US3134003017,X
+FWLT,Foster Wheeler AG,CH0018666781,X
+G (Gil),Gillette Co.,US3757661026,X
+GAP,The Great Atlantic & Pacific Tea Co,US3900641032,X
+GAS (Nico),Nicor Inc.,US6540861076,X
+GD,General Dynamics Corp,US3695501086,X
+GDT,Guidant Corp,US4016981056,X
+GDW,Golden West Financial,US3813171069,X
+GE,General Electric Co,US3696043013,X
+NLV,NextLevel Systems Inc,US3701201077,X
+GIS,General Mills Inc.,US3703341046,X
+GLK (Chem),Great Lakes Chemical Corp,US3905681033,X
+GLW,Corning Inc.,US2193501051,X
+GM,General Motors Co,US37045V1008,X
+GP,Georgia-Pacific Group,US3732981085,X
+GPC,Genuine Parts Co,US3724601055,X
+GPS,Gap Inc.,US3647601083,X
+GPU,GPU Inc.,US36225X1000,X
+GR,Goodrich Corp.,US3823881061,X
+GRA,W. R. Grace & Co,US38388F1084,X
+GT,Goodyear Tire & Rubber Co,US3825501014,X
+GTE (GTE),GTE Corp.,US3623201031,X
+GTW,Gateway Inc.,US3676261080,X
+GWW,W. W. Grainger Inc,US3848021040,X
+GLBC (Glob),Global Crossing Ltd,BMG3921A1009,X
+H (Har),Harcourt General Inc.,US41163G1013,X
+HAL,Halliburton Co.,US4062161017,X
+HAS,Hasbro Inc.,US4180561072,X
+HBAN,Huntington Bancshares Inc,US4461501045,X
+HCA,HCA Holdings Inc,US40412C1018,X
+HCR,Manor Care Inc.,US5640551017,X
+HD,Home Depot Inc,US4370761029,X
+HES,Hess Corp,US42809H1077,X
+CZR (Har),Harrah's Entertainment,US1276861036,X
+HI (Hou),Household International Inc,US4418151076,X
+HIG,Hartford Financial Services Group Inc,US4165151048,X
+HLT,Hilton Worldwide Holdings Inc.,US43300A2033,X
+HM,Homestake Mining Co,US4376141002,X
+HNZ,H. J. Heinz Company,US4230741039,X
+HON,Honeywell International Inc,US4385161066,X
+HPC,Hercules Inc.,US4270561065,X
+HPQ,HP Inc,US40434L1052,X
+HRB,H&R Block Inc,US0936711052,X
+EHC,HealthSouth Corp.,US29261A1007,X
+HSH,Hillshire Brands Co,US4325891095,X
+HSY,Hershey Co,US4278661081,X
+HUM,Humana Inc.,US4448591028,X
+IBM,IBM Corp.,US4592001014,X
+IFF,International Flavors & Fragrances Inc,US4595061015,X
+IHRT,iHeartMedia Inc,US1845021021,X
+IKN,IKON Office Solutions Inc,US4517131011,X
+INTC,Intel Corp.,US4581401001,X
+IP,International Paper Co.,US4601461035,X
+IPG,Interpublic Group of Companies Inc,US4606901001,X
+TT,Trane Technologies plc,IE00BK9ZQ967,X
+ITT,ITT Inc,US45073V1089,X
+ITW,Illinois Tool Works Inc,US4523081093,X
+JAVA,Sun Microsystems,US8668102036,X
+JCI,Johnson Controls International plc,IE00BY7QL619,X
+JCI (Old),Johnson Controls (Old),US4783661071,X
+JCP,J.C. Penney Co Inc,US7081601061,X
+JNJ,Johnson & Johnson,US4781601046,X
+JOS,Jostens Inc.,US4810883003,X
+JP,Jefferson-Pilot Corp.,US4750701082,X
+JPM,JPMorgan Chase & Co.,US46625H1005,X
+JPM (Old),J. P. Morgan & Co. Inc (Old),US6168801008,X
+JWN,Nordstrom Inc,US6556641008,X
+K,Kellogg Co.,US4878361082,X
+KATE,Kate Spade & Co,US4858651098,X
+KBH,KB Home,US48666K1097,X
+KEY,KeyCorp,US4932671088,X
+KLAC,KLA-Tencor Corp.,US4824801009,X
+KM,Kmart Corp,US4825841095,X
+KMB,Kimberly-Clark Corp,US4943681035,X
+KMG (Ker),Kerr-McGee Corp.,US4923861078,X
+KO,The Coca Cola Co.,US1912161007,X
+KR,Kroger Co.,US5010441013,X
+KRB,MBNA Corp.,US55262L1008,X
+KRI,Knight-Ridder Inc.,US4990401030,X
+KSS,Kohl's Corp.,US5002551043,X
+KSU,Kansas City Southern,US4851703029,X
+L,Loews Corp.,US5404241086,X
+BBWI,Bath & Body Works Inc,US0708301041,X
+LDG,Longs Drug Stores Inc,US5431621011,X
+LEG,Leggett & Platt Inc,US5246601075,X
+LEHMQ,Lehman Brothers Holding,US5249081002,X
+LLY,Eli Lilly and Co.,US5324571083,X
+LMT,Lockheed Martin Corp.,US5398301094,X
+LNC,Lincoln National Corp,US5341871094,X
+LOW,Lowe's Companies Inc,US5486611073,X
+LPX,Louisiana-Pacific Corp.,US5463471053,X
+LSI (LSI),LSI Corp,US5021611026,X
+LU,Lucent Technology,US5494631071,X
+LUV,Southwest Airlines Co,US8447411088,X
+LXK,Lexmark International Inc,US5297711070,X
+M,Macy's Inc.,US55616P1049,X
+MAR,Marriott International Inc,US5719032022,X
+MAS,Masco Corp.,US5745991068,X
+MAT,Mattel Inc.,US5770811025,X
+MAY,May Dept Stores,US5777781031,X
+MBI,MBIA Inc,US55262C1009,X
+MCD,McDonald's Corp.,US5801351017,X
+MCK,McKesson Corp.,US58155Q1031,X
+MDP,Meredith Corp.,US5894331017,X
+MDR,McDermott Int'l Inc,PAL1201471A1,X
+MDT,Medtronic PLC,IE00BTN1Y115,X
+MEA,Mead Corp.,US5828341074,X
+MEE,Massey Energy Co.,US5762061068,X
+MEL,Mellon Financial Corp,US58551A1088,X
+MER,Merrill Lynch & Co,US5901881087,X
+MIL,Millipore Corp,US6010731098,X
+MIR (M. R.),Mirage Resorts Inc,US60462E1047,X
+MKG,Mallinckrodt Inc. (Old),US5612321092,X
+MMC,Marsh & McLennan Companies Inc,US5717481023,X
+MMM,3M Co,US88579Y1010,X
+MO,Altria Group Inc.,US02209S1033,X
+MOLX,Molex Inc.,US6085541018,X
+MRK,Merck & Co Inc,US58933Y1055,X
+MRO,Marathon Oil Corp.,US5658491064,X
+MS,Morgan Stanley,US6174464486,X
+MSFT,Microsoft Corp.,US5949181045,X
+MSI,Motorola Solutions Inc.,US6200763075,X
+MTG,MGIC Investment Corp,US5528481030,X
+MU,Micron Technology Inc,US5951121038,X
+MYG,Maytag Corp.,US5785921074,X
+MZ,Milacron Inc.,US5987093011,X
+N (Inc),Inco Ltd.,CA4532584022,X
+NAV,Navistar Int'l Corp,US63934E1082,X
+NC,NACCO Industries Inc,US6295791031,X
+NCC,National City Corp.,US6354051038,X
+NCE,New Century Energies Inc,US64352U1034,X
+NEE,NextEra Energy Inc,US65339F1012,X
+NEM,Newmont Mining Corp.,US6516391066,X
+NGH,Nabisco Group Holding Corp,US62952P1021,X
+NKE,Nike Inc.,US6541061031,X
+NMK,Niagara Mohawk Holdings Inc.,US6535201064,X
+NOC,Northrop Grumman Corp.,US6668071029,X
+NOVL,Novell Inc,US6700061053,X
+NSC,Norfolk Southern Corp.,US6558441084,X
+NSI,National Service Industries Inc,US6376572060,X
+NSM (Nat),National Semiconductor,US6376401039,X
+NT,Nortel Networks,CA6565685089,X
+NTAP,NetApp Inc,US64110D1046,X
+NTRS,Northern Trust Corp.,US6658591044,X
+NUE,Nucor Corp.,US6703461052,X
+NWL,Newell Brands Inc,US6512291062,X
+NXTL,Nextel Communications Inc,US65332V1035,X
+NYT,New York Times Co,US6501111073,X
+OAT,Quaker Oats Co,US7474021059,X
+ODP,Office Depot Inc.,US6762201068,X
+OI,Owens-Illinois Inc.,US6907684038,X
+OK,Old Kent Financial Corp,US6798331038,X
+OKE,ONEOK Inc,US6826801036,X
+OMC,Omnicom Group Inc,US6819191064,X
+OMX (Old),OfficeMax Inc (Old),US67622M1080,X
+ONE,Bank One Corp.,US06423A1034,X
+ORCL,Oracle Corp.,US68389X1054,X
+OC,Owens Corning,US6907421019,X
+OXY,Occidental Petroleum Corp,US6745991058,X
+PAYX,Paychex Inc.,US7043261079,X
+PBI,Pitney Bowes Inc,US7244791007,X
+PBY,"Pep Boys: Manny, Moe & Jack",US7132781094,X
+PCAR,PACCAR Inc.,US6937181088,X
+PCG,PG&E Corp,US69331C1080,X
+PCH,PotlatchDeltic Corp,US7376301039,X
+PCS (Sprint),Sprint PCS Group,US8520615068,X
+PD,Phelps Dodge Corp,US7172651025,X
+PDG,Placer Dome Inc.,CA7259061017,X
+PEG,Public Service Enterprise Group Inc,US7445731067,X
+PEP,PepsiCo Inc.,US7134481081,X
+PFE,Pfizer Inc.,US7170811035,X
+PG,Procter & Gamble Co,US7427181091,X
+PGL,Peoples Energy Corp,US7110301063,X
+PGN,Progress Energy Inc.,US7432631056,X
+PGR,Progressive Corp.,US7433151039,X
+PH,Parker-Hannifin Corp,US7010941042,X
+PHA,Pharmacia Corp.,US71713U1025,X
+PHM,PulteGroup Inc,US7458671010,X
+RVTY,Revvity Inc,US7140461093,X
+PLL,Pall Corp.,US6964293079,X
+PNC,PNC Financial Services Group Inc,US6934751057,X
+PNU,Pharmacia & Upjohn Inc.,US7169411094,X
+PNW,Pinnacle West Capital Corp,US7234841010,X
+PPG,PPG Industries Inc,US6935061076,X
+PPL,PPL Corp.,US69351T1060,X
+PRD,Polaroid Corp,US7310951055,X
+PSFT,People Soft Inc,US7127131065,X
+PAR,PAR Technology Corp,US6988841036,X
+PTV,Pactiv Corp,US6952571056,X
+PVN (Fin),Providian Financial Corp,US74406A1025,X
+PWJ,Paine Webber Group Inc,US6956291057,X
+LIN,Linde plc,IE00BZ12WP82,X
+QCOM,Qualcomm Inc,US7475251036,X
+QTRN,Quintiles Transnational Corp,US7487671007,X
+R,Ryder System Inc,US7835491082,X
+RAD,Rite Aid Corp.,US7677541044,X
+RAL,Ralston Purina Co.,US7512773026,X
+RBK,Reebok Int'l Ltd,US7581101000,X
+RD,Royal Dutch Petroleum,US7802578044,X
+RDC,Rowan Companies plc,GB00B6SLMV12,X
+RF,Regions Financial Corp.,US7591EP1005,X
+RIG,Transocean Ltd,CH0048265513,X
+RLM,Reynolds Metals Co,US7617631012,X
+RML,Russell Corp.,US7823521080,X
+RNB,Republic New York Corp,US7607191043,X
+ROH,Rohm & Hass Co,US7753711073,X
+ROK,Rockwell Automation Inc.,US7739031091,X
+RRD,RR Donnelley & Sons Co,US2578672006,X
+RSH,RadioShack Corp.,US74979E1010,X
+RTN,Raytheon Co. (Old),US7551115071,X
+IMS,IMS Health Holdings Inc,US4499341083,X
+S,Sprint Corp,US85207U1051,X
+S (Sears),Sears Roebuck & Co,US8123871084,X
+SAF,Safeco Corp.,US7864291007,X
+SCHW,Charles Schwab Corp.,US8085131055,X
+SEE,Sealed Air Corp.,US81211K1007,X
+SEG,Seagate Technology (Old),US8118041032,X
+SFA,Scientific-Atlanta Inc,US8086551046,X
+SGI (Old),Silicon Graphics Inc (Old),US8270561025,X
+SGP,Schering-Plough Corp.,US8066051017,X
+SHW,Sherwin-Williams Co.,US8243481061,X
+SIAL,Sigma-Aldrich Corp.,US8265521018,X
+SLB,Schlumberger NV,AN8068571086,X
+SLM,SLM Corp.,US78442P1066,X
+SLR,Solectron Corp.,US8341821077,X
+SMI,Springs Industries Inc.,US8517831009,X
+SMS,Shared Medical Systems Corp,US8194861014,X
+SNA,Snap-On Inc.,US8330341012,X
+SNV,Synovus Financial Corp.,US87161C5013,X
+SO,Southern Co.,US8425871071,X
+SOTR,SouthTrust Corp,US8447301016,X
+SPGI,S&P Global Inc.,US78409V1044,X
+SPLS,Staples Inc.,US8550301027,X
+SRE,Sempra Energy,US8168511090,X
+SCI,Service Corp. Int'l,US8175651046,X
+STI,SunTrust Banks Inc,US8679141031,X
+STJ,St. Jude Medical Inc,US7908491035,X
+STT,State Street Corp.,US8574771031,X
+SUB,Summit Bancorp,US8660051017,X
+SUN (Sun),Sunoco Inc (Old),US86764P1093,X
+SVU,Supervalu Inc.,US8685361037,X
+SWK,Stanley Black & Decker Inc,US8545021011,X
+SWY,Safeway Inc.,US7865142084,X
+SYY,Sysco Corp.,US8718291078,X
+T,AT&T Inc.,US00206R1023,X
+T (Old),AT&T Corp. (Old),US0019575051,X
+TAP,Molson Coors Brewing Co.,US60871R2094,X
+TEK,Tektronix Inc.,US8791311009,X
+TER,Teradyne Inc,US8807701029,X
+TGNA,TEGNA Inc,US87901J1051,X
+TGT,Target Corp.,US87612E1064,X
+THC,Tenet Healthcare Corp.,US88033G4073,X
+TIN,Temple-Inland Inc.,US8798681073,X
+TJX,TJX Companies Inc.,US8725401090,X
+TKR,Timken Co.,US8873891043,X
+TLAB,Tellabs Inc.,US8796641004,X
+TMC.A,Times Mirror Co Share,US8873641075,X
+GL,Globe Life Inc,US37959E1029,X
+TMO,Thermo Fisher Scientific Inc,US8835561023,X
+TNB,Thomas & Betts Corp,US8843151023,X
+TOS,Tosco Corp.,US8914903021,X
+TOY,"Toys ""R"" Us, Inc.",US8923351006,X
+TRCO,Tribune Media Co,US8960475031,X
+TROW,T. Rowe Price Group Inc,US74144T1088,X
+TRV,Travelers Companies Inc,US89417E1091,X
+TRW (TRW),TRW Inc.,US8726491082,X
+TUP,Tupperware Brands Corp,US8998961044,X
+TWX,Time Warner Inc.,US8873173038,X
+TWX (Old),Time Warner Inc. (Old),US8873151091,X
+TX,Texaco Inc.,US8816941038,X
+TXN,Texas Instruments Inc,US8825081040,X
+TXT,Textron Inc.,US8832031012,X
+TXU,TXU Corp.,US8731681081,X
+U,US Airways Group (Old),US9119051079,X
+UCL,Unocal Co,US9152891027,X
+UCM,Unicom Corp Holding Co,US9060421065,X
+UIS,Unisys Corp.,US9092143067,X
+UK,Union Carbide Corp Holding Co,US9055811049,X
+UMG,MediaOne Group Inc.,US58440J1043,X
+UN,Unilever N.V.,US9047847093,X
+UNH,UnitedHealth Group Inc,US91324P1021,X
+UNM,Unum Group,US91529Y1064,X
+UNP,Union Pacific Corp,US9078181081,X
+UPC,Union Planters Corp.,US9080681094,X
+UPR,Union Pacific Resources Group Inc,US9078341057,X
+USB,U.S. Bancorp,US9029733048,X
+USB (FBS),U.S. Bancorp (First Bank),91159610,X
+UST,UST Inc.,US9029111062,X
+USW,US West Inc.,US91299X9322,X
+RTX,Raytheon Technologies Corp,US75513E1010,X
+VFC,VF Corp,US9182041080,X
+VMC,Vulcan Materials Co,US9291601097,X
+VO,Seagram Co. Ltd.,CA8118501060,X
+VZ,Verizon Communications Inc,US92343V1044,X
+COOP,Mr. Cooper Group Inc,US62482R1077,X
+WB,Wachovia Corp.,US9299031024,X
+WB (Old),Wachovia Corp (Old),US9297711031,X
+WBA,Walgreens Boots Alliance Inc,US9314271084,X
+WCOM,WorldCom Inc,US98157D1063,X
+WEN,Wendy's International,US9505901093,X
+WFC,Wells Fargo & Co,US9497461015,X
+WHR,Whirlpool Corp.,US9633201069,X
+WIN (W-D),Winn-Dixie Stores Inc (Old),US9742801098,X
+WLA,Warner Lambert Pharmaceutical Co,US9344881076,X
+WLL (Wil),Willamette Industries Inc,US9691331071,X
+WLP,Wellpoint Health Networks Inc,US94973H1086,X
+WM,Waste Management Inc.,US94106L1098,X
+WMB,Williams Companies Inc,US9694571004,X
+WMT,Wal-Mart Stores Inc,US9311421039,X
+WOR,Worthington Industries Inc,US9818111026,X
+SW,Smurfit WestRock plc,IE00028FXN24,X
+WWY,Wrigley Co.,US9825261053,X
+WY,Weyerhaeuser Co,US9621661043,X
+WYE,Wyeth Corp.,US9830241009,X
+X,United States Steel Corp,US9129091081,X
+XEL,Xcel Energy Inc.,US98389B1008,X
+XLNX,Xilinx Inc.,US9839191015,X
+XOM,Exxon Mobil Corp.,US30231G1022,X
+XRX,Xerox Corp.,US98421M1062,X
+YHOO,Yahoo! Inc,US9843321061,X
+YUM,Yum! Brands Inc.,US9884981013,X

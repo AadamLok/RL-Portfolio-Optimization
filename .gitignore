@@ -1,3 +1,9 @@
+# API Keys
+.env
+
+# CSV
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -124,6 +130,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv_data
 env/
 venv/
 ENV/
